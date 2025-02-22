@@ -1,46 +1,70 @@
-# Getting Started with Create React App
+# Recipe Management System
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A **React Native Web** app designed for managing recipes, meal planning, inventory tracking, and more. Optimized for **web-based platforms**, this application allows users to explore, save, and organize recipes while integrating meal planning and inventory tracking features.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+### 1. **User Authentication**
+- **Sign Up:** Create an account with a username, email, and password.
+- **Login:** Secure authentication for registered users.
+- **Forgot Password:** Users can recover their accounts through email verification.
 
-### `npm start`
+**Screenshots:**
+- ![Sign Up Page](src/screenshot/login.png)
+- ![Login Page](src/screenshot/login.png)
+- ![Forgot Password Page](src/screenshot/login.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### 2. **User Profile Management**
+- **View Profile:** Users can see their account details.
+- **Edit Profile:** Modify and save user profile information.
+- **Manage Recipes:** Users can create, edit, and delete their own recipes.
+- **Manage Favorite Recipes:** Add and remove favorite recipes for easy access.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+**Screenshots:**
+- ![Profile Page](src/screenshot/profilr.png)
+- ![Edit Profile Page](src/screenshot/profilr.png)
 
-### `npm test`
+### 3. **Recipe Management**
+- **Recipe Listings:** Browse categorized recipes (Breakfast, Lunch, Dinner).
+- **Recipe Details:** View ingredients, step-by-step instructions, and user interactions.
+- **CRUD Operations:** Create, edit, and delete recipes.
+- **Recipe Likes and Comments:** Interact with recipes through likes and reviews.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+**Screenshots:**
+- ![Recipe Listings](src/screenshot/home.png)
+- ![Recipe Details](src/screenshot/details.png)
+- ![Add Recipe Page](src/screenshot/add.png)
+- ![Comments and Ratings Page](src/screenshot/comment.png)
 
-### `npm run build`
+### 4. **Meal Planning**
+- **Weekly Meal Planner:** Assign recipes to specific days for structured meal organization.
+- **Themed Meal Plans:** Get suggestions like "High Protein," "Quick & Easy," etc.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+**Screenshots:**
+- ![Weekly Meal Plan](src/screenshot/plan.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 5. **Inventory Management**
+- **Add/Edit/Delete Inventory Items:** Keep track of available ingredients.
+- **Quantity and Unit Tracking:** Ensures accurate inventory data.
+- **Shopping List Generation:** Automatically generates a shopping list from meal plans.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+**Screenshots:**
+- ![Inventory Management](src/screenshot/inven.png)
+- ![Shopping List Management](src/screenshot/shoping.png)
 
-### `npm run eject`
+### 6. **Recipe Recommendations**
+- **Ingredient-Based Recommendations:** Suggests recipes based on available ingredients.
+- **Dietary Preference Filters:** Choose "High Protein," "Low Calories," or "Highly Rated" recipes.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+**Screenshots:**
+- ![Recommendation Page](src/screenshot/recom.png)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Installation
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Clone the repository:
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+git clone https://github.com/yourusername/recipe-management-app.git
+cd recipe-management-app
