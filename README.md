@@ -4,10 +4,13 @@ A **React Native Web** app designed for managing recipes, meal planning, invento
 
 ## Features
 
-### 1. **Home Page**
+### 1. **Home Page** 
+- **Explore Recipes:** Browse a variety of delicious home-cooked and gourmet dishes.  
+- **Quick Navigation:** Access search, meal planning, recommendations, and inventory tracking.  
+- **Personalized Experience:** Get tailored recipe suggestions based on ingredients and preferences.
 ![Recipe Listings](src/screenshot/home.png)
 
-### 2. ** User Authentication &User Profile Management**
+### 2. **User Authentication &User Profile Management**
 - **Sign Up:** Create an account with a username, email, and password.
 - **Login:** Secure authentication for registered users.
 - **Forgot Password:** Users can recover their accounts through email verification.
