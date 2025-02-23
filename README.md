@@ -37,7 +37,7 @@ A **React Native Web** app designed for managing recipes, meal planning, invento
 
 ### 4. **Meal Planning**
 - **Weekly Meal Planner:** Assign recipes to specific days for structured meal organization.
-- **Themed Meal Plans:** Get suggestions like "High Protein," "Quick & Easy," etc.
+- **Meal Selection:** Choose recipes for Breakfast, Lunch, or Dinner to create a personalized meal plan.
 ![Weekly Meal Plan](src/screenshot/plan.png)
 
 ### 5. **Inventory Management**
