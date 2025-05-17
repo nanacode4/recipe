@@ -1,6 +1,6 @@
 # Recipe Management System
 
-A **React Native Web** app designed for managing recipes, meal planning, inventory tracking, and more. Optimized for **web-based platforms**, this application allows users to explore, save, and organize recipes while integrating meal planning and inventory tracking features.
+A **React Web** app designed for managing recipes, meal planning, inventory tracking, and more. Optimized for **web-based platforms**, this application allows users to explore, save, and organize recipes while integrating meal planning and inventory tracking features.
 
 ## Features
 
